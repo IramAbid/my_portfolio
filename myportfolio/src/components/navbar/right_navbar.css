@@ -1,0 +1,33 @@
+.right-navbar {
+    margin:0;
+    padding:0;
+    position: fixed;
+    top: 0; 
+    right: 0; 
+    width: 7vw; 
+    height: 100vh; 
+    background-color: transparent;
+    padding-right: 50px;
+    padding-top: 50px;
+
+}
+.right-navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; 
+    text-align: right; 
+}
+.right-navbar li {
+    padding-bottom: 5px;
+    
+}
+.right-navbar li a {
+    margin:0;
+    padding:0;
+    display: block; 
+    color: rgb(202, 200, 200);
+    text-decoration: none;
+    
+}
+
+

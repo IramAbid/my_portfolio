@@ -1,0 +1,22 @@
+/* CursorBall.css */
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+  .ball {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(144, 64, 64, 0.8) 10%, rgba(255, 255, 255, 0) 70%);
+    box-shadow: 0 0 10px rgb(234, 100, 100); /* Add a soft shadow for depth */
+    position: fixed; /* Position the ball relative to the viewport */
+    z-index: 9999; /* Ensure the cursor ball appears above other elements */
+    pointer-events: auto; /* Allow mouse events to be captured by the ball */
+    transition: transform 0.2s ease;
+  }
+  
